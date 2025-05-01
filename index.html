@@ -1,4 +1,5 @@
-
+# Generar una versión más moderna de la landing en HTML con hero section y animaciones suaves
+modern_html = """
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -132,3 +133,11 @@
     </footer>
 </body>
 </html>
+"""
+
+# Guardar archivo HTML moderno
+modern_html_path = "/mnt/data/portfolio_gpts_moderno.html"
+with open(modern_html_path, "w", encoding="utf-8") as f:
+    f.write(modern_html)
+
+modern_html_path
